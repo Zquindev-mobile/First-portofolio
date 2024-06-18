@@ -1,0 +1,21 @@
+
+@media (max-width: 639px) {
+  .csoon {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    display: none;
+  }
+  .csoon {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .csoon>h1 {
+    font-size: 4rem;
+  }
+}
